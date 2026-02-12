@@ -31,6 +31,14 @@ function App() {
         </div>
         {/* Routes, Route 練習區 */}
         <Routes>
+          <Route 
+            path="/" 
+            element={
+              <main>
+                <p>首頁</p>
+              </main>
+            } 
+          />
           <Route path="/todo" element={<Todo />} /> 
           <Route path="/login" element={<Login />} /> 
           <Route path="/register" element={<Register />} /> 
